@@ -63,7 +63,7 @@ const Body = () => {
             LEARN MORE
           </button>
         </div>
-        <div className='w-bodySubImage h-bodySubImage '>
+        <div className='w-bodySubImage h-bodySubImage mb-2'>
           <img src='images/body/Search-Image.png' alt='SearchImage' />
         </div>
       </div>
