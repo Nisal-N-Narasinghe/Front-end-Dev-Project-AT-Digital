@@ -17,6 +17,13 @@ export const theme = {
     "error-color": "#FFF8E0",
     "success-color": "#FFF8E0",
   },
-  extend: {},
+  extend: {
+    width: {
+      logo: "238.89px",
+    },
+    height: {
+      logo: "36.11px",
+    },
+  },
 };
 export const plugins = [];
