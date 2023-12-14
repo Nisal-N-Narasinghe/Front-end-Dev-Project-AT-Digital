@@ -20,6 +20,7 @@ export const theme = {
   extend: {
     width: {
       logo: "238.89px",
+      footerdivider: "630px",
     },
     height: {
       logo: "36.11px",
