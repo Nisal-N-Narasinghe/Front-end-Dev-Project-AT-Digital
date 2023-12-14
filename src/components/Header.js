@@ -11,7 +11,7 @@ const Header = () => {
           alt='logo'
         />
       </div>
-      <div className='justify-self-end mr-6'>
+      <div className='justify-self-end mr-6 mt-2'>
         <NavLinks />
       </div>
     </header>
