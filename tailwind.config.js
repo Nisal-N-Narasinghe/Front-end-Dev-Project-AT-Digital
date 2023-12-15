@@ -49,6 +49,9 @@ export const theme = {
       lg: "1200px",
       xl: "1440px",
     },
+    spacing: {
+      consultationContainer: "27rem",
+    },
   },
 };
 export const plugins = [];
