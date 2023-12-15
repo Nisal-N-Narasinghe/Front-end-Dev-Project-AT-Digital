@@ -10,12 +10,12 @@ const Body = () => {
         alt='body'
       />
       <div
-        className='md:w-full lg:w-6/12 lg:left-24 lg:top-2/3 xl:w-4/12  lg:absolute '
+        className='md:w-full lg:w-5/12 lg:left-20 lg:top-consultationContainer  lg:absolute '
         style={styles.contentContainer}>
         <p
           className='text-accent-color-2 font-bold mb-4'
           style={styles.heading}>
-          We Crush Your Competitors, Goals, and Sales Records - Without The B.S.
+          We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
         </p>
 
         <button
@@ -25,7 +25,7 @@ const Body = () => {
         </button>
       </div>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 justify-items-center text-center md:text-left  '>
+      <div className='grid grid-cols-1 md:grid-cols-2 justify-items-center text-center md:text-left  md:mr-20'>
         <div className='w-bodySubImagemd h-bodySubImagemd md:w-bodySubImagemd md:h-bodySubImagemd lg:w-bodySubImagelg lg:h-bodySubImagelg xl:w-bodySubImagexl xl:h-bodySubImagexl'>
           <img src='images/body/Desktop-Image.png' alt='DesktopImage' />
         </div>
@@ -46,7 +46,7 @@ const Body = () => {
           </button>
         </div>
       </div>
-      <div className='grid grid-col-1 md:grid-cols-2 justify-items-center text-center md:text-left xs:mb-40 md:mb-20 lg:mb-0'>
+      <div className='grid grid-col-1 md:grid-cols-2 justify-items-center text-center md:text-left md:ml-20 xs:mb-40 md:mb-20 lg:mb-0'>
         <div className='w-bodyParagraphBox h-bodyParagraphBox order-2 md:order-1 xs:relative md:static'>
           <h1 className='text-primary-color font-bold mt-20 text-bodySubHeading'>
             Digital Strategy Consulting
