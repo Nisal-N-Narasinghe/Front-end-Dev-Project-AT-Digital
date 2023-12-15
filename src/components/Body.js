@@ -25,7 +25,7 @@ const Body = () => {
         </button>
       </div>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 justify-items-center md:justify-items-center  xs:text-center md:text-left  '>
+      <div className='grid grid-cols-1 md:grid-cols-2 justify-items-center text-center md:text-left  '>
         <div className='w-bodySubImagemd h-bodySubImagemd md:w-bodySubImagemd md:h-bodySubImagemd lg:w-bodySubImagelg lg:h-bodySubImagelg xl:w-bodySubImagexl xl:h-bodySubImagexl'>
           <img src='images/body/Desktop-Image.png' alt='DesktopImage' />
         </div>
@@ -46,7 +46,7 @@ const Body = () => {
           </button>
         </div>
       </div>
-      <div className='grid grid-col-1 md:grid-cols-2 justify-items-center md:justify-items-center xs:text-center md:text-left xs:mb-40 md:mb-20 lg:mb-0'>
+      <div className='grid grid-col-1 md:grid-cols-2 justify-items-center text-center md:text-left xs:mb-40 md:mb-20 lg:mb-0'>
         <div className='w-bodyParagraphBox h-bodyParagraphBox order-2 md:order-1 xs:relative md:static'>
           <h1 className='text-primary-color font-bold mt-20 text-bodySubHeading'>
             Digital Strategy Consulting
