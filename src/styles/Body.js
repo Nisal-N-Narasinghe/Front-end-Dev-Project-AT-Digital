@@ -14,7 +14,7 @@ export const styles = {
   consultationbutton: {
     width: "214px",
     height: "38px",
-    padding: "12px 20px",
+
     borderRadius: "4px",
     fontSize: "14px",
     gap: "8px",
