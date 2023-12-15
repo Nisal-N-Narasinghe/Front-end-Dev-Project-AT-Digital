@@ -23,12 +23,18 @@ export const theme = {
       logo: "238.89px",
       footerdivider: "630px",
       bodyParagraphBox: "542px",
-      bodySubImage: "414px",
+      bodySubImagexl: "414px",
+      bodySubImagelg: "346px",
+      bodySubImagemd: "275px",
+      bodySubImagexs: "275px",
     },
     height: {
       logo: "36.11px",
       bodyParagraphBox: "206px",
-      bodySubImage: "414px",
+      bodySubImagexl: "414px",
+      bodySubImagelg: "346px",
+      bodySubImagemd: "275px",
+      bodySubImagexs: "275px",
     },
     fontSize: {
       "2xl": "1.5rem",
@@ -36,6 +42,12 @@ export const theme = {
       "6xl": "4rem",
       bodySubHeading: "27px",
       bodyParagraph: "16px",
+    },
+    screens: {
+      xs: "375px",
+      md: "768px",
+      lg: "1200px",
+      xl: "1440px",
     },
   },
 };
