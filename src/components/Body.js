@@ -5,12 +5,12 @@ const Body = () => {
   return (
     <div>
       <img
-        style={styles.image}
+        className='w-full md:h-screen'
         src='images/body/Body-Upper-Image.png'
         alt='body'
       />
       <div
-        className='md:w-full xl:w-4/12 xl:left-24 xl:top-2/4 lg:w-4/12 lg:left-24 lg:top-2/4 lg:absolute xl:absolute'
+        className='md:w-full lg:w-6/12 lg:left-24 lg:top-2/3 xl:w-4/12  lg:absolute '
         style={styles.contentContainer}>
         <p
           className='text-accent-color-2 font-bold mb-4'
@@ -25,11 +25,11 @@ const Body = () => {
         </button>
       </div>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 justify-items-center md:justify-items-center  xs:text-center lg:text-left xl:text-left '>
+      <div className='grid grid-cols-1 md:grid-cols-2 justify-items-center md:justify-items-center  xs:text-center md:text-left  '>
         <div className='w-bodySubImagemd h-bodySubImagemd md:w-bodySubImagemd md:h-bodySubImagemd lg:w-bodySubImagelg lg:h-bodySubImagelg xl:w-bodySubImagexl xl:h-bodySubImagexl'>
           <img src='images/body/Desktop-Image.png' alt='DesktopImage' />
         </div>
-        <div className='w-bodyParagraphBox h-bodyParagraphBox xs:relative md:static'>
+        <div className='w-bodyParagraphBox h-bodyParagraphBox xs:relative md:static md:mb-20 lg:mb-0'>
           <h1 className='text-primary-color font-bold mt-20 text-bodySubHeading '>
             Web & Mobile App Development
           </h1>
@@ -46,7 +46,7 @@ const Body = () => {
           </button>
         </div>
       </div>
-      <div className='grid grid-col-1 md:grid-cols-2 justify-items-center md:justify-items-center xs:text-center  lg:text-left xl:text-left xs:mb-40 md:mb-0'>
+      <div className='grid grid-col-1 md:grid-cols-2 justify-items-center md:justify-items-center xs:text-center md:text-left xs:mb-40 md:mb-20 lg:mb-0'>
         <div className='w-bodyParagraphBox h-bodyParagraphBox order-2 md:order-1 xs:relative md:static'>
           <h1 className='text-primary-color font-bold mt-20 text-bodySubHeading'>
             Digital Strategy Consulting

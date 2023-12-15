@@ -1,8 +1,4 @@
 export const styles = {
-  image: {
-    width: "100%",
-    height: "763px",
-  },
   contentContainer: {
     background: "linear-gradient(to right, #4DCA79, #1CBDDD)",
     padding: "40px 40px 40px 40px",
