@@ -5,7 +5,7 @@ const Body = () => {
   return (
     <div>
       <img
-        className='w-full md:h-screen'
+        className='w-full md:h-bodyTopImagemd lg:h-bodyTopImagelg xl:h-bodyTopImagexl'
         src='images/body/Body-Upper-Image.png'
         alt='body'
       />
@@ -25,11 +25,11 @@ const Body = () => {
         </button>
       </div>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 justify-items-center text-center md:text-left  md:mr-20'>
+      <div className='grid grid-cols-1 md:grid-cols-2 justify-items-center text-center md:text-left  md:mr-20 '>
         <div className='w-bodySubImagemd h-bodySubImagemd md:w-bodySubImagemd md:h-bodySubImagemd lg:w-bodySubImagelg lg:h-bodySubImagelg xl:w-bodySubImagexl xl:h-bodySubImagexl'>
           <img src='images/body/Desktop-Image.png' alt='DesktopImage' />
         </div>
-        <div className='w-bodyParagraphBox h-bodyParagraphBox xs:relative md:static md:mb-20 lg:mb-0'>
+        <div className='w-bodyParagraphFrame h-bodyParagraphBox xs:relative md:static md:mb-20 lg:mb-0 xs:w-bodyParagraphsm md:w-auto'>
           <h1 className='text-primary-color font-bold mt-20 text-bodySubHeading '>
             Web & Mobile App Development
           </h1>
@@ -46,13 +46,13 @@ const Body = () => {
           </button>
         </div>
       </div>
-      <div className='grid grid-col-1 md:grid-cols-2 justify-items-center text-center md:text-left md:ml-20 xs:mb-40 md:mb-20 lg:mb-0'>
-        <div className='w-bodyParagraphBox h-bodyParagraphBox order-2 md:order-1 xs:relative md:static'>
-          <h1 className='text-primary-color font-bold mt-20 text-bodySubHeading'>
+      <div className='grid grid-col-1 md:grid-cols-2 justify-items-center text-center md:text-left md:ml-20 xs:mb-20 md:mb-20 lg:mb-0 '>
+        <div className='w-bodyParagraphFrame h-bodyParagraphBox order-2 md:order-1 xs:relative md:static xs:w-bodyParagraphsm md:w-auto'>
+          <h1 className='text-primary-color font-bold mt-20 text-bodySubHeading '>
             Digital Strategy Consulting
           </h1>
 
-          <p className='text-text-color-light mt-4 text-bodyParagraph'>
+          <p className='text-text-color-light mt-4 text-bodyParagraph '>
             Your digital strategy should complement the overall marketing
             strategy of the company. In online marketing, each component will
             never work in isolation, and every business needs a different mix.
@@ -66,7 +66,7 @@ const Body = () => {
             LEARN MORE
           </button>
         </div>
-        <div className='order-1 md:order-2 w-bodySubImagemd h-bodySubImagemd md:w-bodySubImagemd md:h-bodySubImagemd lg:w-bodySubImagelg lg:h-bodySubImagelg xl:w-bodySubImagexl xl:h-bodySubImagexl xs:mt-40  md:mt-0  xl:mb-4 md:mb-4  '>
+        <div className='order-1 md:order-2 w-bodySubImagemd h-bodySubImagemd md:w-bodySubImagemd md:h-bodySubImagemd lg:w-bodySubImagelg lg:h-bodySubImagelg xl:w-bodySubImagexl xl:h-bodySubImagexl xs:mt-20  md:mt-0  xl:mb-4 md:mb-4  '>
           <img src='images/body/Search-Image.png' alt='SearchImage' />
         </div>
       </div>
